@@ -3,6 +3,7 @@
     package="com.sunmi.printerhelper">
 
     <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:name="BaseApp"
@@ -50,6 +51,8 @@
         <activity android:name=".activity.LcdActivity"
             android:parentActivityName=".activity.FunctionActivity"/>
         <activity android:name=".activity.LabelActivity"
+            android:parentActivityName=".activity.FunctionActivity"/>
+        <activity android:name=".activity.InvoiceActivity"
             android:parentActivityName=".activity.FunctionActivity"/>
     </application>
 

@@ -16,6 +16,7 @@
     <string name="function_lcd">Lcd Test</string>
     <string name="function_status">Status</string>
     <string name="function_label">Label Test</string>
+    <string name="function_WebView">Test WebView</string>
 
     <!--titles-->
     <string name="setting_title">Setting</string>

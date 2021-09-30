@@ -63,7 +63,9 @@ public class FunctionActivity extends AppCompatActivity {
             new DemoDetails(R.string.function_blackline, R.drawable.function_blackline,
                     BlackLabelActivity.class),
             new DemoDetails(R.string.function_label, R.drawable.function_label,
-                    LabelActivity.class)
+                    LabelActivity.class),
+            new DemoDetails(R.string.function_WebView, R.drawable.function_label,
+                    InvoiceActivity.class)
     };
 
     @Override
